@@ -6,15 +6,15 @@ namespace CSharpLab2
 {
     class Section
     {
-        List<Student> studentsList = new List<Student>();
+       public List<Student> students = new List<Student>();
         public int SectionNumber { get; set; }
         public string SectionName { get; set; }
 
-        public Section(int SectionNumber, string SectionName, List<Student> studentsList)
+        public Section(int SectionNumber, string SectionName, List<Student> students)
         {
             this.SectionNumber = SectionNumber;
             this.SectionName = SectionName;
-            this.studentsList = studentsList;
+            this.students = students;
         }
 
     }

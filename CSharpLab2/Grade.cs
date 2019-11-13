@@ -7,9 +7,9 @@ namespace CSharpLab2
     class Grade
     {
         public int StudentTotal { get; set; }
-        public string student { get; set; }
+        public Student student { get; set; }
 
-        public Grade(string student, int StudentTotal)
+        public Grade(Student student, int StudentTotal)
         {
             this.student = student;
             this.StudentTotal = StudentTotal;
